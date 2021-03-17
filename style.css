@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+#navbar-header .container {
+  display: flex;
+  background-color: black;
+  /* border: 2px solid red; */
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.img {
+  margin-left: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 40%;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Cabin;
+}
+
+a:hover {
+  color: #1ed760;
+}
+
+span {
+  color: white;
+  pointer-events: none;
+}
+
+footer .container {
+  background-color: black;
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#section1 {
+  width: 100%;
+  padding-top: 80px;
+  background-color: #ff4632;
+  min-height: 70vh;
+}
+
+.text {
+  flex-basis: 50%;
+}
+
+#section2 .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #cb1582;
+  padding: 120px 0;
+  min-height: 606px;
+  display: flex;
+}
+
+#section2 .text div {
+  color: #a5ffef;
+}
+
+#section2 .button {
+  color: #cb1582;
+  background-color: #a5ffef;
+}
+
+.title1 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.title2 {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.button {
+  margin-top: 35px;
+  border-radius: 500px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 17px 48px;
+  letter-spacing: 2px;
+  border: 0;
+}
+
+.bottom-box {
+  position: relative;
+  width: 527px;
+  height: 320px;
+  background: linear-gradient(
+    359.37deg,
+    #000 3.09%,
+    #ff4632 22.4%,
+    #fae62d 46.64%,
+    #9bf0e1 62.15%,
+    #a0c3d2 79.91%,
+    #4100f5 99.49%
+  );
+  background-repeat: no-repeat;
+}
+
+#section3 {
+  padding-top: 80px;
+  background-image: url(/images/LiE_circles.svg);
+  background-size: auto 100%;
+  color: #1ed760;
+  background-color: #2d46b9;
+  background-position: right center;
+  background-repeat: no-repeat;
+  min-height: 606px;
+}

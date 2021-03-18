@@ -2,23 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap"
       rel="stylesheet"
-      type="text/css"
-      href="//fonts.googleapis.com/css?family=Cabin"
     />
     <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
   </head>
   <body>
-    <nav id="navbar-header">
+    <nav>
       <div class="container">
-        <div class="img">
-          <img src="./images/logo.png" alt="logo" width="130" />
-        </div>
+        <img src="images/logo.png" width="130" />
         <div class="links">
           <a href="#">Premium</a>
           <a href="#">Support</a>
@@ -34,6 +30,7 @@
         <div class="content">
           <div class="text">
             <div class="title1">SPOTIFY PREMIUM</div>
+
             <div class="title2">Get 3 months of Premium for free</div>
             <div class="description">
               Enjoy ad-free music, offline listening, and more. Cancel anytime.
@@ -42,11 +39,11 @@
             <div class="note">
               Individual plan only. Only $9.99/month after. Offer not available
               to users who already tried Premium. Terms and conditions apply.
-              Offer ends Dec 31, 2021.
+              Offer ends Dec 31, 2020.
             </div>
           </div>
+          <img src="images/balloon.png" />
         </div>
-        <img src="./images/balloon.png" alt="" />
       </div>
     </section>
     <section id="section2">
@@ -54,7 +51,11 @@
         <div class="content">
           <div class="text">
             <div class="bottom-box">
-              <div class="top-box"></div>
+              <div class="top-box">
+                2020
+                <br />
+                Wrapped
+              </div>
             </div>
           </div>
           <div class="text">
@@ -70,31 +71,41 @@
       </div>
     </section>
     <section id="section3">
-      <div class="container"></div>
+      <div class="container">
+        <div class="text">
+          <div class="title1">SPOTIFY FREE</div>
+
+          <div class="title2">Listening is everything</div>
+          <div class="description">
+            Millions of songs and podcasts. No credit card needed.
+          </div>
+          <button class="button">GET SPOTIFY FREE</button>
+        </div>
+      </div>
     </section>
     <footer>
       <div class="container">
-        <div>
-          <div>
-            <div>
+        <div class="row">
+          <div class="row footer-left">
+            <div class="img-div">
               <img src="images/logo.png" width="130" />
             </div>
-            <div>
-              <div>Company</div>
+            <div class="column">
+              <div class="footer-heading">Company</div>
               <a href="#">About</a>
               <a href="#">Jobs</a>
               <a href="#">For the Record</a>
             </div>
-            <div>
-              <div>Communities</div>
+            <div class="column">
+              <div class="footer-heading">Communities</div>
               <a href="#">For Artists</a>
               <a href="#">Developers</a>
               <a href="#">Brands</a>
               <a href="#">Investors</a>
               <a href="#">Vendors</a>
             </div>
-            <div>
-              <div>Useful Links</div>
+            <div class="column">
+              <div class="footer-heading">Useful Links</div>
               <a href="#">Support</a>
               <a href="#">Web Player</a>
               <a href="#">Free Mobile App</a>
@@ -114,8 +125,8 @@
           </div>
         </div>
         <div class="row2">USA <img src="images/usa.jpg" width="20" /></div>
-        <div>
-          <div>
+        <div class="row row3">
+          <div class="footer-bottom-links">
             <a href="#">Legal</a>
             <a href="#">Privacy Center</a>
             <a href="#">Privacy Policy</a>
